@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "46469166217",
+    "firebase_url": "https://sioma-4f23e.firebaseio.com",
+    "project_id": "sioma-4f23e",
+    "storage_bucket": "sioma-4f23e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46469166217:android:129e270460bc885f",
+        "android_client_info": {
+          "package_name": "com.meteorit.sioma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46469166217-tnd4qgpjjv9jdo43lnnu44l2g32vjd3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meteorit.sioma",
+            "certificate_hash": "1906c0a46540a4f7c845f9193d8198a25017a101"
+          }
+        },
+        {
+          "client_id": "46469166217-4aftacm787um71maigcsqm1i6mpmvnmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIfMkFyJp6h9A7XR4SbbjdNBFAoNmQWpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46469166217-4aftacm787um71maigcsqm1i6mpmvnmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

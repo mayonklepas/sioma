@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+       <!--<item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_black_48dp"
+            android:title="Menu Utama" />-->
+       <!-- <item
+            android:id="@+id/nav_sp2hp"
+            android:icon="@mipmap/ic_info_outline_black_48dp"
+            android:title="Info SP2HP" />-->
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@mipmap/ic_call_black_48dp"
+            android:title="Call Center" />
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@mipmap/ic_mail_outline_black_48dp"
+            android:title="SMS Center" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@mipmap/ic_language_black_48dp"
+            android:title="WEB KORLANTAS" />
+    </group>
+
+    <item android:title="Profilku">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@mipmap/ic_account_circle_black_48dp"
+                android:title="Info Profil" />
+        </menu>
+    </item>
+
+</menu>

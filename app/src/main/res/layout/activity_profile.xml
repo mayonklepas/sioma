@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meteorit.sioma.ProfileActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_account_circle_black_48dp"
+            android:tint="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="Profile"
+            android:id="@+id/bartitle"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pengguna"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_margin="12dp"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:gravity="left"
+        android:padding="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Email"
+                android:layout_margin="1dp"
+                android:layout_column="0"
+                android:gravity="left" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="imonks21@gmail.com"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:layout_column="1"
+                android:id="@+id/email"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Nama"
+                android:layout_margin="1dp"
+                android:layout_column="0"
+                android:gravity="left|center" />
+
+
+        <EditText android:id="@+id/nama"
+            android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Handphone"
+                android:layout_margin="1dp"
+                android:layout_column="0"
+                android:gravity="left|center" />
+
+
+            <EditText android:id="@+id/nohp" android:inputType="phone"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Alamat"
+                android:layout_margin="1dp"
+                android:layout_column="0"
+                android:gravity="left|center" />
+
+
+            <EditText android:id="@+id/alamat" android:inputType="textMultiLine" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:id="@+id/update"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>
